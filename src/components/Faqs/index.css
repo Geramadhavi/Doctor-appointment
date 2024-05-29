@@ -1,0 +1,98 @@
+/* Write your code here. */
+* {
+    box-sizing: border-box;
+  }
+  html,body,#root{
+    height: 100%;
+  }
+  .faqs-container{
+    background: rgb(237, 237, 247);
+    margin-top: 0%;
+  }
+  
+  .faqs-list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .faqs-list {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .faqs-list {
+      width: 80%;
+    }
+  }
+  
+  .question-main-heading {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 0%;
+    color: rgb(70, 71, 71);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .question-main-heading {
+      font-size: 25px;
+      padding-top: 60px;
+      padding-left: 50px;
+      color: rgb(70, 71, 71);
+    }
+  }
+
+  .main-last-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .last-container{
+    background-color: white;
+    height: 33%;
+    width: 90%;
+    border: 1px solid  rgb(185, 184, 184);
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .last-container-heading{
+    color: rgb(42, 43, 43);
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  .last-second-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+  }
+  .last-container-para{
+    color: rgb(86, 87, 87);
+    font-size: 15px;
+    font-family: sans-serif;
+
+  }
+  .last-container-button{
+    color: white;
+    height: 40%;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .last-second-container-heading{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 5px;
+  }
+  .span-last-answer{
+    font-weight: bold;
+    color: black;
+  }

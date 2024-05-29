@@ -1,0 +1,194 @@
+.appointment-heading{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+}
+.buttons-container{
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.clinic-button{
+    background-color: rgb(9, 9, 248);
+    height: 45px;
+    width: 180px;
+    border: none;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+.doctor-icon{
+    color: white;
+    margin-right: 10px;
+}
+.video-icon{
+    color: black;
+    margin-right: 10px;
+    height: 14px;
+    width: 17px;
+}
+.Teleconsultation-button{
+    background-color: rgb(240, 240, 241);
+    height: 45px;
+    width: 180px;
+    border: none;
+    color: rgb(61, 60, 60);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 7px;
+}
+.dropdown-container{
+    background-color: white;
+    border: 1px solid blue;
+    height: 35%;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.dropdown-answer-container{
+    background-color: white;
+    height: 35%;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border-color: blue;
+}
+.dropdown-heading{
+    font-size: 15px;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.dropdown-para{
+    font-size: 13px;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.drop-button-image{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    color: blue;
+}
+.drop-button{
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.dropup-heading{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.dropup-para{
+    font-size: 13px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.slot-doctor-icon{
+    background-color: rgb(131, 129, 129);
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 12px;
+}
+.appointment-last-container{
+    background-color: rgb(238, 231, 231);
+    height: 240px;
+    width: 90%;
+    margin-left: 40px;
+}
+.select-service-heading{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.appointment-last-subcontainer{
+    background-color: white;
+    height: 180px;
+    width: 90%;
+    margin: 15px;
+    border: 1px solid rgb(143, 140, 140);
+    border-radius: 10px;
+}
+.doctors-heading-container{
+    display: flex;
+    flex-direction: row;
+}
+.doctors-heading-subcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.consulation-heading{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(35, 36, 36);
+}
+.money-para{
+    font-size: 12;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding-left: 100px;
+    padding-top: 0%;
+    color: black;
+}
+.from-span{
+    color: black;
+    font-weight: bold;
+}
+.slots-available{
+    color: green;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding-left: 20px;
+}
+.slots-timings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.slots-timings-heading{
+    color: rgb(78, 78, 163);
+    background-color: rgb(243, 238, 238);
+    height: 40px;
+    width: 90px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.see-all-slots-button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
